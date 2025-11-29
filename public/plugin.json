@@ -1,0 +1,31 @@
+{
+  "name": "linux-command",
+  "pluginName": "Linux命令手册",
+  "version": "1.0.0",
+  "description": "快速查看Linux命令详解，数据源自 jaywcjlove/linux-command",
+  "main": "index.html",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "pluginType": "ui",
+  "features": [
+    {
+      "code": "linux",
+      "explain": "搜索 Linux 命令",
+      "cmds": [
+        "linux",
+        "lc",
+        "cmd",
+        "命令",
+        "linux命令",
+        "linux command",
+        "man",
+        "手册",
+        "帮助"
+      ]
+    }
+  ],
+  "author": "Linux Command Plugin",
+  "license": "MIT",
+  "development": "http://localhost:4001",
+  "homePage": "https://github.com/jaywcjlove/linux-command"
+}
