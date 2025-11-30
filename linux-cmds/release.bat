@@ -1,7 +1,10 @@
 @echo off
 echo ===================================
-echo   Starting Rubick Plugin Release  
+echo   Starting Rubick Plugin Release
 echo ===================================
+
+echo [0/3] Downloading offline data...
+call update-data.bat
 
 echo.
 echo [1/3] Installing dependencies...
